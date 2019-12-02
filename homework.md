@@ -254,8 +254,33 @@ id |        name
 
 7.  John Smith has decided to hijack our movie evening, Remove him from the table of people.
 John Smith is not in the table people, the SQL command returns Delete 0.
-DELETE FROM people WHERE name = 'John Smith';
-DELETE 0
+Delete James Smith
+DELETE FROM people WHERE name = 'James Smith';
+DELETE 1
+ id |        name        
+----+--------------------
+  1 | Andrew Gray
+  2 | Andrew Kirkwood
+  3 | Andrew Wyper
+  4 | Catherine Hall
+  6 | Evan Smith
+  7 | Gary Clark
+  8 | James Fraser
+ 10 | Jamie Ryan
+ 11 | Jen Merritt
+ 12 | Lauren Brett
+ 13 | Luca Sanz Charreun
+ 14 | Matteo Fusillo
+ 15 | Olivia Wright
+ 16 | Patrick ONeill
+ 17 | Ross Cumming
+ 18 | Sigurd Watt
+ 19 | Silvia Simonassi
+ 20 | Stephen Ramsay
+ 21 | Steve Vance
+  5 | Cody Abbott
+ 22 | Chris Fraser
+
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
 

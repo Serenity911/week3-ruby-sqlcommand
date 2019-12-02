@@ -62,17 +62,19 @@ UPDATE people SET name = 'Cody Abbott' WHERE name = 'Cosy Abott';
 
 INSERT INTO people (name) VALUES ('Chris Fraser');
 
-DELETE FROM people WHERE name = 'John Smith';
--- SELECT * FROM people;
+-- DELETE FROM people WHERE name = 'John Smith';
+DELETE FROM people WHERE name = 'James Smith';
 
-INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
--- SELECT * FROM movies;
-
-UPDATE movies SET show_time = '20:30' WHERE title = 'Iron Man 3';
-SELECT * FROM movies;
-
--- DELETE FROM movies WHERE year <= 2010;
+SELECT * FROM people;
+--
+-- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
+-- -- SELECT * FROM movies;
+--
+-- UPDATE movies SET show_time = '20:30' WHERE title = 'Iron Man 3';
 -- SELECT * FROM movies;
 --
--- DELETE FROM movies WHERE id <= 5;
--- SELECT * FROM movies;
+-- -- DELETE FROM movies WHERE year <= 2010;
+-- -- SELECT * FROM movies;
+-- --
+-- -- DELETE FROM movies WHERE id <= 5;
+-- -- SELECT * FROM movies;
