@@ -24,7 +24,7 @@ Use the supplied data as the source of data to answer the questions. Copy the SQ
 
 1.  Return ALL the data in the 'movies' table.
 SELECT * FROM movies;
-SELECT * FROM people;
+
 DROP TABLE
 DROP TABLE
 CREATE TABLE
@@ -92,30 +92,7 @@ INSERT 0 1
  19 | Black Panther                       | 2018 | 19:30
 (19 rows)
 
- id |        name        
-----+--------------------
-  1 | Andrew Gray
-  2 | Andrew Kirkwood
-  3 | Andrew Wyper
-  4 | Catherine Hall
-  5 | Cosy Abott
-  6 | Evan Smith
-  7 | Gary Clark
-  8 | James Fraser
-  9 | James Smith
- 10 | Jamie Ryan
- 11 | Jen Merritt
- 12 | Lauren Brett
- 13 | Luca Sanz Charreun
- 14 | Matteo Fusillo
- 15 | Olivia Wright
- 16 | Patrick ONeill
- 17 | Ross Cumming
- 18 | Sigurd Watt
- 19 | Silvia Simonassi
- 20 | Stephen Ramsay
- 21 | Steve Vance
-(21 rows)
+
 
 2.  Return ONLY the name column from the 'people' table
 SELECT name FROM people;
@@ -310,7 +287,7 @@ INSERT 0 1
 (20 rows)
 
 9.  The cinema would like to make the Iron Man movies a triple billing. Find out the show time of "Iron Man 2" and set the show time of "Iron Man 3" to start two hours later.
-UPDATE movies SET show_time = '20:30' WHERE title = 'Iron Man 3';
+UPDATE movies SET show_time = '21:25' WHERE title = 'Iron Man 3';
 
 UPDATE 1
  id |                title                | year | show_time
@@ -334,7 +311,7 @@ UPDATE 1
  18 | Thor: Ragnarok                      | 2017 | 21:50
  19 | Black Panther                       | 2018 | 19:30
  20 | Avengers: Infinity War              | 2018 | 00:00
-  7 | Iron Man 3                          | 2013 | 20:30
+  7 | Iron Man 3                          | 2013 | 21:25
 (20 rows)
 ## Extension
 
